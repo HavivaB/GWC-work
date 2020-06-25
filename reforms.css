@@ -1,0 +1,37 @@
+/******************************************************/
+/************** CSS FOR TAKE-ACTION.HTML **************/
+/******************************************************/
+
+.page-header-reforms {
+  width: 100%;
+  position: absolute;
+  text-transform: uppercase;
+  background-color: black;
+}
+
+
+/******************************************************/
+/***************** ACTION ITEM LIST *******************/
+/******************************************************/
+
+/* Flexbox container that holds all flex items */
+.flex-container-reforms {
+  display: flex;
+
+  position: absolute;
+  padding: 0.5em 0;
+  align-items: center;
+
+  left: 5%;
+  right: 5%;
+
+  margin: 5% 0;
+  width: 90%;
+
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: start;
+  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
+}
+
